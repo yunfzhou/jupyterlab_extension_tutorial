@@ -161,7 +161,7 @@ of the `JupyterFrontEndPlugin` class:
 // src/index.ts#L9-L13
 
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: '@jupyterlab-examples/hello-world:plugin',
+  id: '@yunfzhou/jet_helloworld:plugin',
   description: 'Minimal JupyterLab extension.',
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
