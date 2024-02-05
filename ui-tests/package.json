@@ -1,7 +1,7 @@
 {
-  "name": "@jupyterlab-examples/hello-world-ui-tests",
+  "name": "@yunfzhou/jet_helloworld-ui-tests",
   "version": "1.0.0",
-  "description": "JupyterLab @jupyterlab-examples/hello-world Integration Tests",
+  "description": "JupyterLab @yunfzhou/jet_helloworld Integration Tests",
   "private": true,
   "scripts": {
     "start": "jupyter lab --config jupyter_server_test_config.py",

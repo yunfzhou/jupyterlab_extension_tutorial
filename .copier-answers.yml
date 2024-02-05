@@ -8,12 +8,12 @@ file_extension: ''
 has_binder: false
 has_settings: false
 kind: frontend
-labextension_name: '@jupyterlab-examples/hello-world'
+labextension_name: '@yunfzhou/jet_helloworld'
 mimetype: ''
 mimetype_name: ''
 project_short_description: Minimal JupyterLab extension.
-python_name: jupyterlab_examples_hello_world
-repository: https://github.com/jupyterlab/extension-examples
+python_name: jet_helloworld
+repository: https://github.com/yunfzhou/jupyterlab_extension_tutorial
 test: true
 viewer_name: ''
 

@@ -1,5 +1,5 @@
 {
   "packageManager": "python",
-  "packageName": "jupyterlab_examples_hello_world",
-  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package jupyterlab_examples_hello_world"
+  "packageName": "jet_helloworld",
+  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package jet_helloworld"
 }

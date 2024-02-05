@@ -1,4 +1,4 @@
-# Making a new release of jupyterlab_examples_hello_world
+# Making a new release of jet_helloworld
 
 The extension can be published to `PyPI` and `npm` manually or using the [Jupyter Releaser](https://github.com/jupyter-server/jupyter_releaser).
 

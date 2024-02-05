@@ -4,14 +4,14 @@ import {
 } from '@jupyterlab/application';
 
 /**
- * Initialization data for the @jupyterlab-examples/hello-world extension.
+ * Initialization data for the @yunfzhou/jet_helloworld extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: '@jupyterlab-examples/hello-world:plugin',
+  id: '@yunfzhou/jet_helloworld:plugin',
   description: 'Minimal JupyterLab extension.',
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
-    console.log('The JupyterLab main application:', app);
+    console.log('@yunfzhou: The JupyterLab main application:', app);
   }
 };
 

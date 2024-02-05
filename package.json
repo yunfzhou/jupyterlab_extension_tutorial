@@ -1,5 +1,5 @@
 {
-    "name": "@jupyterlab-examples/hello-world",
+    "name": "@yunfzhou/jet_helloworld",
     "version": "0.1.0",
     "description": "Minimal JupyterLab extension.",
     "keywords": [
@@ -7,9 +7,9 @@
         "jupyterlab",
         "jupyterlab-extension"
     ],
-    "homepage": "https://github.com/jupyterlab/extension-examples",
+    "homepage": "https://github.com/yunfzhou/jupyterlab_extension_tutorial",
     "bugs": {
-        "url": "https://github.com/jupyterlab/extension-examples/issues"
+        "url": "https://github.com/yunfzhou/jupyterlab_extension_tutorial/issues"
     },
     "license": "BSD-3-Clause",
     "author": "Project Jupyter Contributors",
@@ -22,7 +22,7 @@
     "style": "style/index.css",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jupyterlab/extension-examples.git"
+        "url": "https://github.com/yunfzhou/jupyterlab_extension_tutorial.git"
     },
     "scripts": {
         "build": "jlpm build:lib && jlpm build:labextension:dev",
@@ -34,7 +34,7 @@
         "clean": "jlpm clean:lib",
         "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
         "clean:lintcache": "rimraf .eslintcache .stylelintcache",
-        "clean:labextension": "rimraf jupyterlab_examples_hello_world/labextension jupyterlab_examples_hello_world/_version.py",
+        "clean:labextension": "rimraf jet_helloworld/labextension jet_helloworld/_version.py",
         "clean:all": "jlpm clean:lib && jlpm clean:labextension && jlpm clean:lintcache",
         "eslint": "jlpm eslint:check --fix",
         "eslint:check": "eslint . --cache --ext .ts,.tsx",
@@ -91,7 +91,7 @@
     },
     "jupyterlab": {
         "extension": true,
-        "outputDir": "jupyterlab_examples_hello_world/labextension"
+        "outputDir": "jet_helloworld/labextension"
     },
     "eslintIgnore": [
         "node_modules",
